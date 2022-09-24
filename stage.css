@@ -33,3 +33,20 @@ body {
 .voz {
   font-size: 0;
 }
+
+@media (color) {
+  ::selection {
+    background: indigo;
+    color: #bae;
+    text-shadow: none;
+  }
+
+  .shadow {
+    text-shadow:
+      0 -1ch 0 #415,
+      0 -2ch 0 rebeccapurple,
+      0 -3ch 0 blueviolet,
+      0 -5ch 0 darkviolet,
+      0 -8ch 0 #bae;
+  }
+}

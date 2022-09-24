@@ -12,23 +12,6 @@
 :root{--tape-white:#e9e9e9;--tape-black:#090909;--tape-pink:#fbbfff;--tape-yellow:#eee833;--tape-blue:#11dff1;--tape-green:#44f477;--tape-filter:none}@media (prefers-contrast:less){:root{--tape-white:#dcdcdc;--tape-black:#272727}}.tape-white{--tape-hex:var(--tape-white)}.tape-blue{--tape-hex:var(--tape-blue)}.tape-pink{--tape-hex:var(--tape-pink)}.tape-green{--tape-hex:var(--tape-green)}.tape-yellow{--tape-hex:var(--tape-yellow)}.tape-clean:not(.tape-clash),.tape-clean :not(.tape-clash){background:transparent;color:inherit}.tape-flat{border-color:transparent}.tape-flap{border-color:currentColor}.tape-blue,.tape-pink,.tape-green,.tape-yellow,.tape-white{filter:var(--tape-filter);background:var(--tape-hex)!important;color:var(--tape-black)!important}.tape-black{background:var(--tape-black)!important;color:var(--tape-hex,var(--tape-white))!important}.tape-erase,.tape-erase *{color:transparent!important}
 </style>
 
-<style media=(color)>
-  ::selection {
-    background: var(--tape-black, indigo);
-    color: var(--tape-hex, violet);
-    text-shadow: none;
-  }
-
-  .shadow {
-    text-shadow:
-      0 -1ch 0 #415,
-      0 -2ch 0 rebeccapurple,
-      0 -3ch 0 blueviolet,
-      0 -5ch 0 darkviolet,
-      0 -8ch 0 #bae;
-  }
-</style>
-
 <link rel="stylesheet" href="stage.css">
 <link rel="icon" href="icon.svg">
 <link rel="help" href="https://s9a.page/tape">
